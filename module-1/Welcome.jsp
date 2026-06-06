@@ -1,3 +1,8 @@
+<!--JOSE VELAZQUEZ
+MODULE 11.2 ASSIGNMENT
+DATE: 06/06/2026
+This is a JSP page.-->
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.time.LocalDateTime" %>
 <%@ page import="java.time.format.DateTimeFormatter" %>
