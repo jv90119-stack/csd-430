@@ -1,0 +1,151 @@
+/*
+JOSE VELAZQUEZ
+MODULE 3.2 ASSIGNMENT
+DATE: 06/19/2026
+This external stylesheet controls the layout and design
+for both feedbackForm.jsp and displayFeedback.jsp.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d4059;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.info-box,
+.form-box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 6px solid #2d4059;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #2d4059;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+small {
+    margin-top: 5px;
+    color: #555;
+}
+
+.radio-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.radio-group input {
+    margin-left: 0;
+}
+
+.button-row {
+    margin-top: 25px;
+}
+
+input[type="submit"],
+input[type="reset"],
+.button-link {
+    background-color: #2d4059;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+input[type="reset"] {
+    background-color: #777;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.button-link:hover {
+    opacity: 0.85;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+th {
+    background-color: #2d4059;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+tr:hover {
+    background-color: #eef3f7;
+}
+
+footer {
+    background-color: #2d4059;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
