@@ -1,7 +1,7 @@
 <!--JOSE VELAZQUEZ
 MODULE 3.2 ASSIGNMENT
 DATE: 06/19/2026
-This is a JSP page that references external CSS stylesheets. The page displays a form 
+This is a JSP page that references external CSS stylesheets. The page displays a form
 for collecting restaurant feedback. -->
 
 
