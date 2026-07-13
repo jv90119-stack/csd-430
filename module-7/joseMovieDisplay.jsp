@@ -8,7 +8,6 @@ This page displays one selected movie record in an HTML table.-->
 <%@ page import="com.csd430.JoseMovieBean.MovieRecord" %>
 <%--
     Jose Velazquez
-    Module 6 JSP Page
     This page displays one selected movie record in an HTML table.
 --%>
 <%
