@@ -1,0 +1,109 @@
+/* JOSE VELAZQUEZ
+MODULE 8.2 ASSIGNMENT
+DATE: 07/19/2026
+This is the CSS file for the Movies Database project.
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+h1, h2 {
+    color: #1f3a5f;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.9;
+}
+
+a {
+    color: #1f5fa8;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+    display: grid;
+    gap: 12px;
+    max-width: 500px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background: #1f5fa8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #17497f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background: #1f3a5f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.success {
+    color: #0a6f2b;
+    font-weight: bold;
+}
+
+
+.error {
+    color: #8a1f11;
+    font-weight: bold;
+    background: #f8dddd;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+input[readonly] {
+    background: #eeeeee;
+    color: #333333;
+}
