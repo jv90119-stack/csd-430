@@ -1,0 +1,100 @@
+/* JOSE VELAZQUEZ
+MODULE 9.2 ASSIGNMENT
+DATE: 07/25/2026
+This is the CSS file for the Movies Database project.
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+h1, h2 {
+    color: #1f3b57;
+}
+
+nav a, .button, input[type="submit"] {
+    display: inline-block;
+    margin: 8px 8px 8px 0;
+    padding: 10px 14px;
+    background-color: #1f3b57;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav a:hover, .button:hover, input[type="submit"]:hover {
+    background-color: #315a82;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #1f3b57;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f3f7;
+}
+
+.form-row {
+    margin: 12px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 300px;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+.note {
+    background-color: #eef5ff;
+    padding: 12px;
+    border-left: 4px solid #1f3b57;
+    margin: 15px 0;
+}
+
+.success {
+    background-color: #e8f8ed;
+    border-left: 4px solid #2f8f46;
+}
+
+.error {
+    background-color: #fff0f0;
+    border-left: 4px solid #b00020;
+}
